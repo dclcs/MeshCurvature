@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="glad"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\libigl\;CMake Files\..\libigl\external\;CMake Files\..\libigl\external\glfw\;CMake Files\..\libigl\external\glfw\src\;CMake Files\..\libigl\external\glad\;CMake Files\..\libigl\cmake\;CMake Files\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/LIBIGL/MeshCurvature/cmake-build-debug/glad"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f E:\LIBIGL\MeshCurvature\cmake-build-debug\glad\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f E:\LIBIGL\MeshCurvature\cmake-build-debug\glad\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f E:\LIBIGL\MeshCurvature\cmake-build-debug\glad\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f E:\LIBIGL\MeshCurvature\cmake-build-debug\glad\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glad">
+				<Option output="E:/LIBIGL/MeshCurvature/cmake-build-debug/glad/glad.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/LIBIGL/MeshCurvature/cmake-build-debug/glad"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="E:/LIBIGL/libigl/external/glad/include"/>
+					<Add directory="D:\vs\VC\Tools\MSVC\14.27.29110\ATLMFC\include"/>
+					<Add directory="D:\vs\VC\Tools\MSVC\14.27.29110\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="G:\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="G:\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="G:\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="G:\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="G:\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f E:\LIBIGL\MeshCurvature\cmake-build-debug\glad\Makefile VERBOSE=1 glad"/>
+					<CompileFile command="nmake /NOLOGO /f E:\LIBIGL\MeshCurvature\cmake-build-debug\glad\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f E:\LIBIGL\MeshCurvature\cmake-build-debug\glad\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f E:\LIBIGL\MeshCurvature\cmake-build-debug\glad\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glad/fast">
+				<Option output="E:/LIBIGL/MeshCurvature/cmake-build-debug/glad/glad.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/LIBIGL/MeshCurvature/cmake-build-debug/glad"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="E:/LIBIGL/libigl/external/glad/include"/>
+					<Add directory="D:\vs\VC\Tools\MSVC\14.27.29110\ATLMFC\include"/>
+					<Add directory="D:\vs\VC\Tools\MSVC\14.27.29110\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="G:\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="G:\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="G:\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="G:\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="G:\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f E:\LIBIGL\MeshCurvature\cmake-build-debug\glad\Makefile VERBOSE=1 glad/fast"/>
+					<CompileFile command="nmake /NOLOGO /f E:\LIBIGL\MeshCurvature\cmake-build-debug\glad\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f E:\LIBIGL\MeshCurvature\cmake-build-debug\glad\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f E:\LIBIGL\MeshCurvature\cmake-build-debug\glad\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/LIBIGL/libigl/external/glad/src/glad.c">
+			<Option target="glad"/>
+		</Unit>
+		<Unit filename="E:/LIBIGL/MeshCurvature/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="E:/LIBIGL/MeshCurvature/../libigl/external/glfw/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\libigl\external\glfw\"/>
+		</Unit>
+		<Unit filename="E:/LIBIGL/MeshCurvature/../libigl/external/glfw/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\libigl\external\glfw\src\"/>
+		</Unit>
+		<Unit filename="E:/LIBIGL/MeshCurvature/../libigl/external/glfw/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\..\libigl\external\glfw\src\"/>
+		</Unit>
+		<Unit filename="E:/LIBIGL/MeshCurvature/../libigl/external/glfw/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\..\libigl\external\glfw\src\"/>
+		</Unit>
+		<Unit filename="E:/LIBIGL/MeshCurvature/../libigl/external/glfw/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\..\libigl\external\glfw\src\"/>
+		</Unit>
+		<Unit filename="E:/LIBIGL/MeshCurvature/../libigl/external/glad/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\libigl\external\glad\"/>
+		</Unit>
+		<Unit filename="E:/LIBIGL/MeshCurvature/../libigl/cmake/CXXFeatures.cmake">
+			<Option virtualFolder="CMake Files\..\libigl\cmake\"/>
+		</Unit>
+		<Unit filename="E:/LIBIGL/MeshCurvature/../libigl/cmake/DownloadProject.CMakeLists.cmake.in">
+			<Option virtualFolder="CMake Files\..\libigl\cmake\"/>
+		</Unit>
+		<Unit filename="E:/LIBIGL/MeshCurvature/../libigl/cmake/DownloadProject.cmake">
+			<Option virtualFolder="CMake Files\..\libigl\cmake\"/>
+		</Unit>
+		<Unit filename="E:/LIBIGL/MeshCurvature/../libigl/cmake/LibiglDownloadExternal.cmake">
+			<Option virtualFolder="CMake Files\..\libigl\cmake\"/>
+		</Unit>
+		<Unit filename="E:/LIBIGL/MeshCurvature/../libigl/cmake/LibiglFolders.cmake">
+			<Option virtualFolder="CMake Files\..\libigl\cmake\"/>
+		</Unit>
+		<Unit filename="E:/LIBIGL/MeshCurvature/../libigl/cmake/LibiglWindows.cmake">
+			<Option virtualFolder="CMake Files\..\libigl\cmake\"/>
+		</Unit>
+		<Unit filename="E:/LIBIGL/MeshCurvature/../libigl/cmake/libigl.cmake">
+			<Option virtualFolder="CMake Files\..\libigl\cmake\"/>
+		</Unit>
+		<Unit filename="E:/LIBIGL/MeshCurvature/cmake/FindLIBIGL.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

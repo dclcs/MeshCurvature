@@ -1,0 +1,9 @@
+M:\Paper\new\CLion-2020.2.win\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" E:\LIBIGL\MeshCurvature
+-- MSVC -> forcing use of dynamically-linked runtime.
+-- Creating target: igl::core (igl)
+-- Creating target: igl::opengl (igl_opengl)
+-- Creating target: igl::opengl_glfw (igl_opengl_glfw)
+-- Using Win32 for window creation
+-- Configuring done
+-- Generating done
+-- Build files have been written to: E:/LIBIGL/MeshCurvature/cmake-build-debug
